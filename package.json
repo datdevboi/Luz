@@ -1,0 +1,11 @@
+{
+  "name": "Luz",
+  "version": "0.0.1",
+  "description": "A simple  Functional library written in Typescript",
+  "main": "index.js",
+  "author": "Camilo Guerrero",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^3.2.2"
+  }
+}
