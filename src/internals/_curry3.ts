@@ -3,7 +3,7 @@ import { _curry1 } from "./_curry1";
 import { _curry2 } from "./_curry2";
 
 function _curry3(fn: any) {
-  return function f3(a: any, b: any, c: any) {
+  return function f3(a: any, b: any, c: any): any {
     switch (arguments.length) {
       case 0:
         return f3;

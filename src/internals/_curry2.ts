@@ -2,7 +2,7 @@ import { _isPlaceholder } from "./_isPlaceholder";
 import { _curry1 } from "./_curry1";
 
 function _curry2(fn: any) {
-  return function f2(a: any, b: any) {
+  return function f2(a: any, b: any): any {
     switch (arguments.length) {
       case 0:
         return f2;
