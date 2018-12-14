@@ -1,3 +1,4 @@
 import { _ } from "./_";
+import { add } from "./add";
 
-export { _ };
+export { _, add };
