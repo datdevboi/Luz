@@ -3,11 +3,11 @@
   "localized-strings": {
     "next": "Next",
     "previous": "Previous",
-    "tagline": "A website for testing",
+    "tagline": "A Functional typescript library",
     "docs": {
-      "doc1": {
-        "title": "Latin-ish",
-        "sidebar_label": "Example Page"
+      "api": {
+        "title": "add",
+        "sidebar_label": "add"
       },
       "doc2": {
         "title": "document number 2"
@@ -20,13 +20,16 @@
       },
       "doc5": {
         "title": "Fifth Document"
+      },
+      "doc1": {
+        "title": "Installation",
+        "sidebar_label": "Installation"
       }
     },
     "links": {
       "Docs": "Docs",
       "API": "API",
-      "Help": "Help",
-      "Blog": "Blog"
+      "Help": "Help"
     },
     "categories": {
       "Docusaurus": "Docusaurus",
