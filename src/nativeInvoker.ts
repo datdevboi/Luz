@@ -4,7 +4,7 @@ import { curryN } from "./curryN";
 
 const nativeInvoker = _curry2(function nativeInvoker(
   arity: number,
-  method: CallableFunction
+  method: any
 ) {
   return curryN(arity + 1, function() {
     var target = arguments[arity];
@@ -19,3 +19,5 @@ const nativeInvoker = _curry2(function nativeInvoker(
     );
   });
 });
+
+export { nativeInvoker };
