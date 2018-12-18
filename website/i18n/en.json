@@ -3,25 +3,17 @@
   "localized-strings": {
     "next": "Next",
     "previous": "Previous",
-    "tagline": "A Functional typescript library",
+    "tagline": "A Light Functional Typescript library",
     "docs": {
-      "api": {
-        "title": "add",
-        "sidebar_label": "add"
+      "api-add": {
+        "title": "Add",
+        "sidebar_label": "Add"
       },
-      "doc2": {
-        "title": "document number 2"
+      "api-compose": {
+        "title": "Compose",
+        "sidebar_label": "Compose"
       },
-      "doc3": {
-        "title": "This is document number 3"
-      },
-      "doc4": {
-        "title": "Other Document"
-      },
-      "doc5": {
-        "title": "Fifth Document"
-      },
-      "doc1": {
+      "installation": {
         "title": "Installation",
         "sidebar_label": "Installation"
       }
@@ -34,7 +26,8 @@
     "categories": {
       "Docusaurus": "Docusaurus",
       "First Category": "First Category",
-      "Second Category": "Second Category"
+      "Second Category": "Second Category",
+      "api": "api"
     }
   },
   "pages-strings": {

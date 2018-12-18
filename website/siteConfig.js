@@ -22,7 +22,7 @@ const users = [
 
 const siteConfig = {
   title: "Luz", // Title for your website.
-  tagline: "A Functional typescript library",
+  tagline: "A Light Functional Typescript library",
   url: "https://your-docusaurus-test-site.com", // Your website URL
   baseUrl: "/", // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:
@@ -38,8 +38,8 @@ const siteConfig = {
 
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
-    { doc: "doc1", label: "Docs" },
-    { doc: "api", label: "API" },
+    { doc: "installation", label: "Docs" },
+    { doc: "api-add", label: "API" },
     { page: "help", label: "Help" }
     //{blog: true, label: 'Blog'},
   ],

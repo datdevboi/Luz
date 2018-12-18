@@ -1,7 +1,7 @@
 ---
-id: api-add
-title: Add
-sidebar_label: Add
+id: api-compose
+title: Compose
+sidebar_label: Compose
 ---
 
 ## Lorem
