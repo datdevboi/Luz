@@ -2,12 +2,13 @@
   "name": "Luz",
   "version": "0.0.1",
   "description": "A simple  Functional library written in Typescript",
-  "main": "index.js",
+  "main": "dist/index.js",
   "author": "Camilo Guerrero",
   "license": "MIT",
   "scripts": {
     "test": "jest",
-    "test:watch": "yarn test -- --watch"
+    "test:watch": "yarn test -- --watch",
+    "build": "tsc"
   },
   "devDependencies": {
     "@types/jest": "^23.3.10",
