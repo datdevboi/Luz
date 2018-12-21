@@ -8,7 +8,7 @@ sidebar_label: curryN
     Number -> (* -> a) -> (* -> a)
 ```
 
-Function requires an number representing the arity of the function passed to it.
+Function requires a number representing the arity of the function passed to it and curries the provided function.
 
 ```
     const subtract = (a, b) => a - b;
