@@ -1,7 +1,7 @@
 ---
 id: api-add
-title: Add
-sidebar_label: Add
+title: add
+sidebar_label: add
 ---
 
 ```
