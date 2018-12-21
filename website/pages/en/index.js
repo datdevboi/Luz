@@ -66,7 +66,7 @@ class HomeSplash extends React.Component {
           <PromoSection>
             <Button href="#try">Try It Out</Button>
             <Button href="https://github.com/datdevboi/Luz">Github</Button>
-            <Button href={docUrl("doc2.html")}>NPM</Button>
+            <Button href={"https://www.npmjs.com/package/luz"}>NPM</Button>
           </PromoSection>
         </div>
       </SplashContainer>
@@ -93,24 +93,24 @@ class Index extends React.Component {
       </Container>
     );
 
-    const FeatureCallout = () => (
-      <div
-        className="productShowcaseSection paddingBottom"
-        style={{ textAlign: "center" }}
-      >
-        <h2>Feature Callout</h2>
-        <MarkdownBlock>
-          These are features of this project that are great
-        </MarkdownBlock>
-      </div>
-    );
+    // const FeatureCallout = () => (
+    //   <div
+    //     className="productShowcaseSection paddingBottom"
+    //     style={{ textAlign: "center" }}
+    //   >
+    //     <h2>Feature Callout</h2>
+    //     <MarkdownBlock>
+    //       These are features of this project that are great
+    //     </MarkdownBlock>
+    //   </div>
+    // );
 
     const TryOut = () => (
       <Block id="try">
         {[
           {
-            content: "Talk about trying this out",
-            image: `${baseUrl}img/docusaurus.svg`,
+            content: `<a href="https://repl.it/@camilo17/Luz-playground">Check it out in Repl</a>`,
+
             imageAlign: "left",
             title: "Try it Out"
           }
@@ -124,7 +124,7 @@ class Index extends React.Component {
           {
             content:
               "This is another description of how this project is useful",
-            image: `${baseUrl}img/docusaurus.svg`,
+
             imageAlign: "right",
             title: "Description"
           }
@@ -136,8 +136,8 @@ class Index extends React.Component {
       <Block background="light">
         {[
           {
-            content: "Talk about learning how to use this",
-            image: `${baseUrl}img/docusaurus.svg`,
+            content: "Check out the API page",
+
             imageAlign: "right",
             title: "Learn How"
           }
@@ -149,16 +149,16 @@ class Index extends React.Component {
       <Block layout="fourColumn">
         {[
           {
-            content: "This is the content of my feature",
-            image: `${baseUrl}img/docusaurus.svg`,
+            content: "All functions are curried",
+
             imageAlign: "top",
-            title: "Feature One"
+            title: "Curried?"
           },
           {
-            content: "The content of my second feature",
-            image: `${baseUrl}img/docusaurus.svg`,
+            content: "Luz tries to follow a pure functional style",
+
             imageAlign: "top",
-            title: "Feature Two"
+            title: "Pure functions"
           }
         ]}
       </Block>
@@ -198,10 +198,10 @@ class Index extends React.Component {
         <HomeSplash siteConfig={siteConfig} language={language} />
         <div className="mainContainer">
           <Features />
-          <FeatureCallout />
+          {/* <FeatureCallout /> */}
           <LearnHow />
           <TryOut />
-          <Description />
+          {/* <Description /> */}
           <Showcase />
         </div>
       </div>

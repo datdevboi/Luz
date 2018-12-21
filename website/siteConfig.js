@@ -30,8 +30,8 @@ const siteConfig = {
   //   baseUrl: '/test-site/',
 
   // Used for publishing and more
-  projectName: "test-site",
-  organizationName: "facebook",
+  projectName: "luz",
+  organizationName: "datdevboi",
   // For top-level user or org sites, the organization is still the same.
   // e.g., for the https://JoelMarcey.github.io site, it would be set like...
   //   organizationName: 'JoelMarcey'
@@ -39,22 +39,22 @@ const siteConfig = {
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
     { doc: "installation", label: "Docs" },
-    { doc: "api-add", label: "API" },
-    { page: "help", label: "Help" }
+    { doc: "api-add", label: "API" }
+    // { page: "help", label: "Help" }
     //{blog: true, label: 'Blog'},
   ],
 
   // If you have users set above, you add it here:
 
   /* path to images for header/footer */
-  headerIcon: "img/docusaurus.svg",
+  // headerIcon: "img/docusaurus.svg",
   footerIcon: "img/docusaurus.svg",
   favicon: "img/favicon.png",
 
   /* Colors for website */
   colors: {
-    primaryColor: "#2E8555",
-    secondaryColor: "#205C3B"
+    primaryColor: "#9400D3",
+    secondaryColor: "#C8C8C8"
   },
 
   /* Custom fonts for website */
