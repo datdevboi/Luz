@@ -1,10 +1,15 @@
 {
   "docs": {
-    "Docusaurus": ["doc1"],
-    "First Category": ["doc2"],
-    "Second Category": ["doc3"]
+    "Getting Started": ["installation"]
   },
   "docs-other": {
-    "api": ["api-add", "api-compose"]
+    "Api": [
+      "api-add",
+      "api-compose",
+      "api-curryN",
+      "api-join",
+      "api-reverse",
+      "split"
+    ]
   }
 }
