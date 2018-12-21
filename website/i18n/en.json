@@ -5,8 +5,9 @@
     "previous": "Previous",
     "tagline": "A Light Functional Typescript library",
     "docs": {
-      "_": {
-        "title": "_"
+      "api-_": {
+        "title": "_",
+        "sidebar_label": "_"
       },
       "api-add": {
         "title": "add",
@@ -16,21 +17,25 @@
         "title": "compose",
         "sidebar_label": "compose"
       },
-      "curryN": {
-        "title": "curryN"
+      "api-curryN": {
+        "title": "curryN",
+        "sidebar_label": "curryN"
       },
       "installation": {
         "title": "Installation",
         "sidebar_label": "Installation"
       },
-      "join": {
-        "title": "join"
+      "api-join": {
+        "title": "join",
+        "sidebar_label": "join"
       },
-      "reverse": {
-        "title": "reverse"
+      "api-reverse": {
+        "title": "reverse",
+        "sidebar_label": "reverse"
       },
-      "split": {
-        "title": "split"
+      "api-split": {
+        "title": "split",
+        "sidebar_label": "split"
       }
     },
     "links": {
